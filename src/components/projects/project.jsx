@@ -1,0 +1,9 @@
+import React, { Component } from "react";
+
+class Project extends Component {
+  render() {
+    return <h1>Project Component</h1>;
+  }
+}
+
+export default Project;
