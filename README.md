@@ -14,6 +14,12 @@ Thanks,
 
 `>$ yarn start`
 
+3: Login Information
+
+remember to run `rails db:seed` on rails api to create a user with following credentials.
+
+`email: asad@example.com and Password: password`
+
 ## Task Done
 
 - Login
