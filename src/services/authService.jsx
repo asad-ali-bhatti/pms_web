@@ -5,7 +5,6 @@ const getToken = async (email, password) => {
   const { data } = await Axios.post(url, {
     auth: { email: email, password: password }
   });
-  console.log(data);
   return data.jwt;
 };
 
