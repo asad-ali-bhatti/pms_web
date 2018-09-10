@@ -9,7 +9,6 @@ const token = () => {
 export const getProjects = async () => {
   const url = base_url + "/projects";
   const projects = await Axios.get(url);
-  console.log(projects);
   return projects;
 };
 
