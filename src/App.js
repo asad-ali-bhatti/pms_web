@@ -10,11 +10,6 @@ class App extends Component {
     user_data: { email: "", password: "" }
   };
 
-  async componentDidMount() {
-    // const token = await getToken("asad@example.com", "password");
-    // this.setState({ jwt: token });
-  }
-
   handleLogin = async ({ email, password }) => {
     const token = await getToken(email, password);
     if (token) {

@@ -9,7 +9,9 @@ class AuthRoutes extends Component {
       <Switch>
         <Route
           path="/login"
-          render={() => <Login userData={userData} onLogin={handleLogin} />}
+          render={props => (
+            <Login {...props} userData={userData} onLogin={handleLogin} />
+          )}
         />
         <Redirect to="/login" />
       </Switch>
