@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Projects extends Component {
   render() {
-    return <h1>Projects List Component</h1>;
+    return <h1>Projects List Component {this.props.jwt}</h1>;
   }
 }
 
