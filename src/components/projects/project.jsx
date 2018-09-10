@@ -11,6 +11,7 @@ class Project extends Component {
     const tasks = await getTasks(this.props.match.params.id);
     this.setState({ tasks: tasks });
   }
+
   render() {
     return (
       <Col sm={10}>

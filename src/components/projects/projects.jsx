@@ -9,7 +9,6 @@ class Projects extends Component {
 
   async componentDidMount() {
     const { data } = await getProjects();
-    console.log(data);
     this.setState({ projects: data });
   }
 
